@@ -1,0 +1,16 @@
+
+bcrypt==4.0.1
+Faker==19.6.2
+jsonpath-ng==1.6.0
+jsonschema==4.19.1
+jsonschema-specifications==2023.7.1
+pymongo==4.5.0
+requests==2.31.0
+robotframework==6.1.1
+robotframework-browser==17.4.0
+robotframework-faker==5.0.0
+robotframework-jsonlibrary==0.5
+robotframework-pythonlibcore==4.2.0
+robotframework-requests==0.9.5
+robotframework-seleniumlibrary==6.1.2
+selenium==4.13.0
