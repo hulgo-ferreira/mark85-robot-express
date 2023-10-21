@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20231007 09:09:41.826" rpa="false" schemaversion="4">
+<suite id="s1" name="Mark85-Robot-Express" source="C:\QAx\projects\mark85-robot-express">
+<suite id="s1-s1" name="Tests" source="C:\QAx\projects\mark85-robot-express\tests">
+<suite id="s1-s1-s1" name="Signup" source="C:\QAx\projects\mark85-robot-express\tests\signup.robot">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>Tudo aqui ocorre antes da Suite (antes de todos os testes)</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20231007 09:09:44.888" level="INFO">Tudo aqui ocorre antes da Suite (antes de todos os testes)</msg>
+<status status="PASS" starttime="20231007 09:09:44.886" endtime="20231007 09:09:44.888"/>
+</kw>
+<test id="s1-s1-s1-t1" name="Não deve cadastrar com email incorreto" line="62">
+<kw name="Iniciar sessão" library="base" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20231007 09:09:44.891" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\QAx\\projects\\mark85-robot-express\\results\\browser\\traces\\a2cd0278-5e7e-44d1-a00a-a81cd6772da5"}</msg>
+<msg timestamp="20231007 09:09:46.272" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\QAx\\projects\\mark85-robot-express\\results\\browser\\traces\\a2cd0278-5e7e-44d1-a00a-a81cd6772da5"}</msg>
+<status status="PASS" starttime="20231007 09:09:44.891" endtime="20231007 09:09:46.272"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20231007 09:09:48.421" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20231007 09:09:48.422" level="INFO">See also file:///C:/QAx/projects/mark85-robot-express/results/playwright-log.txt for additional details.</msg>
+<msg timestamp="20231007 09:09:48.423" level="FAIL">Error: page.goto: Page closed
+=========================== logs ===========================
+navigating to "http://localhost:3000/", waiting until "load"
+============================================================</msg>
+<status status="FAIL" starttime="20231007 09:09:46.272" endtime="20231007 09:09:48.595"/>
+</kw>
+<status status="FAIL" starttime="20231007 09:09:44.891" endtime="20231007 09:09:48.603"/>
+</kw>
+<kw name="Take Screenshot" library="Browser" type="TEARDOWN">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20231007 09:09:48.635" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20231007 09:09:48.636" level="INFO">See also file:///C:/QAx/projects/mark85-robot-express/results/playwright-log.txt for additional details.</msg>
+<msg timestamp="20231007 09:09:48.637" level="FAIL">Error: Tried to take screenshot, but no page was open.</msg>
+<status status="FAIL" starttime="20231007 09:09:48.607" endtime="20231007 09:09:48.672">Error: Tried to take screenshot, but no page was open.</status>
+</kw>
+<tag>inv_email</tag>
+<status status="FAIL" starttime="20231007 09:09:44.889" endtime="20231007 09:09:48.672">Setup failed:
+Error: page.goto: Page closed
+=========================== logs ===========================
+navigating to "http://localhost:3000/", waiting until "load"
+============================================================
+
+Also teardown failed:
+Error: Tried to take screenshot, but no page was open.</status>
+</test>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>Tudo aqui ocorre depois da Suite (depois de todos os testes)</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20231007 09:09:48.821" level="INFO">Tudo aqui ocorre depois da Suite (depois de todos os testes)</msg>
+<status status="PASS" starttime="20231007 09:09:48.820" endtime="20231007 09:09:48.821"/>
+</kw>
+<doc>Cenários de testes do cadastro de usuários</doc>
+<status status="FAIL" starttime="20231007 09:09:41.962" endtime="20231007 09:09:48.822"/>
+</suite>
+<status status="FAIL" starttime="20231007 09:09:41.942" endtime="20231007 09:09:48.843"/>
+</suite>
+<status status="FAIL" starttime="20231007 09:09:41.859" endtime="20231007 09:09:48.850"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">inv_email</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Mark85-Robot-Express">Mark85-Robot-Express</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">Mark85-Robot-Express.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Signup">Mark85-Robot-Express.Tests.Signup</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

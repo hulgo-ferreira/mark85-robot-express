@@ -1,0 +1,74 @@
+{"level":30,"time":"2023-10-07T12:09:44.776Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Listening on 53645"}
+{"level":30,"time":"2023-10-07T12:09:44.878Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:44.879Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:44.891Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:44.891Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:44.900Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-10-07T12:09:46.273Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-10-07T12:09:46.287Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-07T12:09:46.288Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-07T12:09:46.333Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Changed active context"}
+{"level":30,"time":"2023-10-07T12:09:47.475Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Video path: undefined"}
+{"level":30,"time":"2023-10-07T12:09:47.476Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Changed active page"}
+{"level":30,"time":"2023-10-07T12:09:48.341Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Removed page=af44648d-8b9d-4cb2-9c07-85dabe3bb313 from context=5a8ce5f9-9b19-4714-9f83-13edb5f64e10 page stack"}
+{"level":30,"time":"2023-10-07T12:09:48.349Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: Page closed
+=========================== logs ===========================
+navigating to "http://localhost:3000/", waiting until "load"
+============================================================
+    at newPage (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:9606:18)
+    at async PlaywrightServer.newPage (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:9923:28) {
+  name: 'Error'
+}
+=============================================================
+================= Original suppressed error =================
+{"level":30,"time":"2023-10-07T12:09:48.408Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method takeScreenshot"}
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:8187:11)
+    at takeScreenshot (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:8226:3)
+    at PlaywrightServer.takeScreenshot (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:9923:34)
+    at handleUnary (C:\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:833:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2023-10-07T12:09:48.409Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2023-10-07T12:09:48.615Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:8187:11)
+    at takeScreenshot (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:8226:3)
+    at PlaywrightServer.takeScreenshot (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:9923:34)
+    at handleUnary (C:\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:833:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2023-10-07T12:09:48.616Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2023-10-07T12:09:48.624Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:8187:11)
+    at takeScreenshot (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:8226:3)
+    at PlaywrightServer.takeScreenshot (C:\Python311\Lib\site-packages\Browser\wrapper\index.js:9923:34)
+    at handleUnary (C:\Python311\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:833:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2023-10-07T12:09:48.624Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2023-10-07T12:09:48.698Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:48.699Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:48.705Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:48.705Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:48.718Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Changed active context"}
+{"level":30,"time":"2023-10-07T12:09:48.723Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:48.723Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:48.734Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-07T12:09:48.734Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-07T12:09:48.738Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-07T12:09:48.738Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-07T12:09:48.752Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:48.752Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:48.756Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Changed active context"}
+{"level":30,"time":"2023-10-07T12:09:48.759Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-10-07T12:09:48.802Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-10-07T12:09:48.833Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:48.833Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-07T12:09:48.964Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-10-07T12:09:49.579Z","pid":7064,"hostname":"DESKTOP-DJ53LNJ","msg":"End of node method closeAllBrowsers"}
